@@ -1,0 +1,61 @@
+body {
+    padding:0;
+    margin:0;
+    height:100%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding-left: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+}
+
+
+h1 {
+   font-weight:500;
+   font-size: 40px;  
+   columns: black;
+}
+
+h4 {
+    font-size: 20px;
+    color: black;
+}
+
+p {
+    font-size :20px;
+    color: #b7b7b7;
+    font-weight: 100;
+}
+
+.item {
+    position: relative;
+    width: 100%;
+}
+ 
+img {
+ position: absolute;
+ width:100%;
+ height:auto;
+ margin: 0;
+ padding: 0;
+}
+
+
+@media (min-width:440px) and (max-width:1040px) {
+    body {
+        background-color: #fff;
+    }
+
+    .item {
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+
+    .item img {
+        width:100%;
+    }
+}
